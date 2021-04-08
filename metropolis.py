@@ -1,5 +1,5 @@
 
-from abc import ABCMeta, abstractmethod
+from abc import ABC, abstractmethod
 
 import numpy as np
 
@@ -47,9 +47,7 @@ To carry out the Metropolis-Hastings algorithm, we need to draw random samples f
 '''
 
 
-class Metropolis:
-    __metaclass__ = ABCMeta
-
+class Metropolis(ABC):
     def __init__(self, itr=1000, cur=1):
         self._post = []
         self._iter = itr
