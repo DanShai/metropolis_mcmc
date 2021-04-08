@@ -1,0 +1,14 @@
+.idea/
+.vscode/
+
+*.pyc
+*.bak
+*.log
+
+venv/
+__target__/
+dist/
+.cache/
+node_modules/
+__pycache__/
+
