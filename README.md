@@ -1,4 +1,4 @@
-**To carry out the Metropolis-Hastings algorithm, we need to draw random samples from the following distributions
+To carry out the Metropolis-Hastings algorithm, we need to draw random samples from the following distributions
 
     * the standard uniform distribution
     * a proposal distribution p(x) that we choose to be N(0,σ)
@@ -35,4 +35,3 @@
             to the posterior distribution So, θ will be expected to bounce around in such a way that its spends
             its time in places proportional to the density of the posterior distribution.
         *   that is, θ is a draw from the posterior distribution.
-**
