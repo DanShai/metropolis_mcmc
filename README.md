@@ -1,6 +1,5 @@
 # Metropolis hastings mcmc algorithm
 
-
 To carry out the Metropolis-Hastings algorithm, we need to draw random samples from the following distributions
 
     - the standard uniform distribution
@@ -36,3 +35,4 @@ To carry out the Metropolis-Hastings algorithm, we need to draw random samples f
     - The acceptance criteria only looks at ratios of the target distribution, so the denominator cancels out and does not matter - that is why we only need samples from a distribution proportional to the posterior distribution So, θ will be expected to bounce around in such a way that its spends its time in places proportional to the density of the posterior distribution.
     - that is, θ is a draw from the posterior distribution.
 
+**
