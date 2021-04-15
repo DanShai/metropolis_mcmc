@@ -1,4 +1,4 @@
-Metropolis hastings mcmc algorithm
+## Metropolis hastings mcmc algorithm
 
 To carry out the Metropolis-Hastings algorithm, we need to draw random samples from the following distributions: 
 
